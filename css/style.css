@@ -1,0 +1,74 @@
+/** Brand Pallette **
+#242038 - Dark Purple
+#725AC1 - Deep Purple
+#8D86C9 - Indigo
+#CAC4CE - Light Gray
+#F7ECE1 - Cream
+********************/
+
+
+/** Structure **/
+body {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/** Utilities **/
+.container-wide, .container-slim {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+.container-wide {
+    max-width: 960px;
+}
+.container-slim {
+    max-width: 720px;
+}
+
+/** Navigation **/
+nav {
+    color: #F7ECE1;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-start {
+    width: 0;
+    height: 0;
+    border-top: 50px solid #242038;
+    border-left: 30px solid transparent;
+}
+
+.nav-middle {
+    display: flex;
+    align-items: center;
+    background-color: #242038;
+    flex: 1; 
+}
+
+.nav-end {
+    width: 0;
+    height: 0;
+    border-top: 50px solid #242038;
+    border-right: 30px solid transparent;
+}
+
+
+/** Footer **/
+footer {
+    margin-top: auto;
+    background-color: black;
+}
+
+.footer-container {
+    color: #F7ECE1;
+}
