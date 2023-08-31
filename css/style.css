@@ -40,7 +40,7 @@ nav {
     height: 60px;     
 }
 
-nav a {
+nav a, nav a:visited {
     color: #F7ECE1;
     text-decoration: none;
     text-transform: uppercase;
@@ -49,8 +49,8 @@ nav a {
 }
 
 a.active {
-    color:#ebee4d;
-    border-bottom: 1px solid #ebee4d;
+    color:#ebee4d !important;
+    border-bottom: 1px solid #ebee4d !important;
 }
 
 .nav-container {
@@ -103,8 +103,15 @@ a.active {
 footer {
     margin-top: auto;
     background-color: black;
+    padding: 10px 0px;
+    font-size: .8rem;
+    text-align: right;
 }
 
 .footer-container {
+    color: #F7ECE1;
+}
+
+footer a, footer a:visited {
     color: #F7ECE1;
 }
